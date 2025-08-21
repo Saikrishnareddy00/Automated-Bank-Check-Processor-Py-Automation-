@@ -6,6 +6,19 @@ Our Solution
 
 This project addresses the problem by combining Tesseract OCR with Google Gemini API to accurately extract cheque details from scanned images. Tesseract handles the raw text recognition, while Gemini refines the extracted text to ensure structured and meaningful outputs. The cleaned data is then stored in a MySQL database, making it easy to integrate with banking systems or financial software for further processing. This approach reduces manual effort, improves accuracy, and accelerates cheque verification and digital record-keeping.
 
+🔧 Tech Stack
+
+Python 3
+
+Streamlit
+
+MySQL 
+
+Tesseract OCR (pytesseract)
+
+OpenCV (for image preprocessing)
+
+
 
 <img width="1355" height="666" alt="UI" src="https://github.com/user-attachments/assets/76c48ffb-0093-4b9f-89eb-798490c9b0ca" />
 <img width="1365" height="673" alt="UI-1" src="https://github.com/user-attachments/assets/cd593ad9-51ef-4add-a243-a1b2c43a4e9f" />
